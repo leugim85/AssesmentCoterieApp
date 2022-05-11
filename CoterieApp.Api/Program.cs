@@ -4,6 +4,7 @@ using CoterieApp.App.Services;
 using CoterieApp.App.Services;
 using CoterieApp.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using AssesmentCoterie.App.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
