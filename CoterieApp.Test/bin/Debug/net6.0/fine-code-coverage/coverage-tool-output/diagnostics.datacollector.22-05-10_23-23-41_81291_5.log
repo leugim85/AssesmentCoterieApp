@@ -1,0 +1,136 @@
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:41.934, 2007580912209, datacollector.dll, Version: 17.0.0-release-20210908-02
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:41.941, 2007580953918, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,59638,--parentprocessid,72660,--diag,C:\Source\CoterieApp\CoterieApp.Test\bin\Debug\net6.0\fine-code-coverage\coverage-tool-output\diagnostics.datacollector.22-05-10_23-23-41_81291_5.log,--tracelevel,4
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:41.941, 2007580955192, datacollector.dll, DataCollector: Monitoring parent process with id: '72660'
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:41.953, 2007581071218, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:59638 
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:41.962, 2007581163136, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 85228, 5, 2022/05/10, 23:23:41.977, 2007581317078, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 85228, 5, 2022/05/10, 23:23:41.977, 2007581317768, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.037, 2007581918533, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.040, 2007581944109, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>C:\\Source\\CoterieApp\\CoterieApp.Test\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v6.0</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>C:\\Source\\CoterieApp\\CoterieApp.Test\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "C:\\Source\\CoterieApp\\CoterieApp.Test\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\CoterieApp.Test.dll"
+  ],
+  "IsTelemetryOptedIn": false
+}
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.070, 2007582248483, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.071, 2007582254023, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions'.
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.071, 2007582254561, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.077, 2007582310258, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.077, 2007582312613, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.077, 2007582312964, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.077, 2007582313133, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.077, 2007582317463, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions,C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.080, 2007582343340, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.080, 2007582345116, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.080, 2007582345384, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.080, 2007582345555, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.080, 2007582345945, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.080, 2007582346676, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions,C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.080, 2007582347054, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions,C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.080, 2007582349732, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.081, 2007582350492, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Searching in: 'C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions'.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.081, 2007582355589, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Loading assembly 'C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll'.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.084, 2007582381125, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 85228, 1, 2022/05/10, 23:23:42.087, 2007582412808, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.088, 2007582421569, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.088, 2007582422217, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Searching in: 'C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions'.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.088, 2007582425669, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Loading assembly 'C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.090, 2007582447144, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 85228, 1, 2022/05/10, 23:23:42.094, 2007582482291, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.094, 2007582485400, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.094, 2007582485849, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.094, 2007582486027, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.094, 2007582486180, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.094, 2007582486330, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:42.094, 2007582486476, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.095, 2007582494903, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 85228, 1, 2022/05/10, 23:23:42.095, 2007582497235, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.102, 2007582569300, datacollector.dll, Listening on Endpoint : 127.0.0.1:59640
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.110, 2007582645036, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:42.126, 2007582802955, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 71636
+}
+TpTrace Information: 0 : 85228, 5, 2022/05/10, 23:23:42.311, 2007584658560, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 85228, 5, 2022/05/10, 23:23:42.311, 2007584659709, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.460, 2007596148469, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.472, 2007596268322, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.473, 2007596272171, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.QuoteEngineServiceTests.When_All_Params_Ok_Return_GenericResponse_IsSuccess_True - 22e525e1-607c-ccaa-7e08-507982cc1c6d' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.474, 2007596280998, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.474, 2007596284283, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.474, 2007596285564, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.BusinessServiceTest.When_Context_IsNull_ThrowException - bba83d1d-426c-668e-8d06-3628a777535c' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.475, 2007596292184, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.475, 2007596294510, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.475, 2007596295396, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.StateServiceTests.When_Context_IsNull_ThrowException - e7f225d6-27db-67f3-9c7f-170fc439d734' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.530, 2007596848597, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.533, 2007596873352, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.536, 2007596901689, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.BusinessServiceTest.When_Context_IsNull_ThrowException - bba83d1d-426c-668e-8d06-3628a777535c' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.542, 2007596969699, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.543, 2007596972763, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.543, 2007596974468, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.StateServiceTests.When_Context_IsNull_ThrowException - e7f225d6-27db-67f3-9c7f-170fc439d734' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.544, 2007596989404, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.545, 2007596992325, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.545, 2007596993750, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.BusinessServiceTest.When_Add_NewBusiness_All_Params_Right_IsNull_Return_IsSucces_True - aee7d52c-d03c-fccc-ea56-8299ed20a260' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.545, 2007597000018, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.546, 2007597002121, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.546, 2007597002978, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.StateServiceTests.When_Add_NewState_All_Params_Right_IsNull_Return_IsSucces_True - 7d5e6215-e227-22b5-60ed-02b30ff53deb' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.997, 2007601518933, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.998, 2007601522963, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.998, 2007601526041, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.QuoteEngineServiceTests.When_All_Params_Ok_Return_GenericResponse_IsSuccess_True - 22e525e1-607c-ccaa-7e08-507982cc1c6d' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.999, 2007601534721, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.999, 2007601536617, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:43.999, 2007601537389, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.QuoteEngineServiceTests.When_States_IsNull_Return_GenericResponse_IsSuccess_False - 49971b78-3979-3cfd-7e98-c8c83531926d' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.026, 2007601807542, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.027, 2007601810545, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.027, 2007601811695, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.QuoteEngineServiceTests.When_States_IsNull_Return_GenericResponse_IsSuccess_False - 49971b78-3979-3cfd-7e98-c8c83531926d' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.027, 2007601818076, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.028, 2007601820337, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.028, 2007601821112, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.QuoteEngineServiceTests.When_Request_Has_No_Register_state_Return_GenericResponse_Message - ae97fe8c-ba9a-f1e5-eb9c-3e3c720d687d' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.028, 2007601826250, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.028, 2007601829258, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.029, 2007601830922, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.QuoteEngineServiceTests.When_Request_Has_No_Register_state_Return_GenericResponse_Message - ae97fe8c-ba9a-f1e5-eb9c-3e3c720d687d' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.029, 2007601839591, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.030, 2007601841997, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.030, 2007601842955, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.QuoteEngineServiceTests.When_Request_Has_Business_String_Empty_Return_GenericResponse_Message - 8edd040a-d144-5278-73c2-839a545317c2' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.030, 2007601848963, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.031, 2007601851146, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.031, 2007601852080, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.QuoteEngineServiceTests.When_Request_Has_Business_String_Empty_Return_GenericResponse_Message - 8edd040a-d144-5278-73c2-839a545317c2' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.031, 2007601857828, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.032, 2007601860113, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.032, 2007601860855, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.QuoteEngineServiceTests.When_Context_IsNull_ThrowException - e574ef5b-9a0d-133a-64cb-ec9bb141502a' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.032, 2007601864542, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.032, 2007601865894, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.032, 2007601866541, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.QuoteEngineServiceTests.When_Context_IsNull_ThrowException - e574ef5b-9a0d-133a-64cb-ec9bb141502a' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.065, 2007602191058, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.065, 2007602193845, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.065, 2007602195123, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.StateServiceTests.When_Add_NewState_All_Params_Right_IsNull_Return_IsSucces_True - 7d5e6215-e227-22b5-60ed-02b30ff53deb' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.070, 2007602245421, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.070, 2007602247556, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.070, 2007602248431, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.BusinessServiceTest.When_Add_NewBusiness_All_Params_Right_IsNull_Return_IsSucces_True - aee7d52c-d03c-fccc-ea56-8299ed20a260' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.071, 2007602255998, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.071, 2007602258304, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.071, 2007602259298, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.BusinessServiceTest.When_Add_NewBussines_Already_Exists_IsNull_Return_Error_Message - 8fe72a0b-7190-6e38-fba1-b7eed2954eb1' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.072, 2007602265573, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.072, 2007602268793, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.073, 2007602270305, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.StateServiceTests.When_Add_NewState_Already_Exists_IsNull_Return_Error_Message - e2242e2e-61a8-3b91-1030-c82e0585fe54' started.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.073, 2007602278769, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.074, 2007602281304, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.074, 2007602282302, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.BusinessServiceTest.When_Add_NewBussines_Already_Exists_IsNull_Return_Error_Message - 8fe72a0b-7190-6e38-fba1-b7eed2954eb1' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.074, 2007602288110, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.074, 2007602289874, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.075, 2007602291321, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'CoterieApp.Test.App.Services.StateServiceTests.When_Add_NewState_Already_Exists_IsNull_Return_Error_Message - e2242e2e-61a8-3b91-1030-c82e0585fe54' completed
+TpTrace Information: 0 : 85228, 8, 2022/05/10, 23:23:44.085, 2007602399542, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:44.129, 2007602838818, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:44.130, 2007602844395, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:44.130, 2007602845052, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:44.130, 2007602845868, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:44.130, 2007602846096, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 85228, 1, 2022/05/10, 23:23:44.130, 2007602846826, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:44.130, 2007602847312, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:44.133, 2007602871099, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:44.133, 2007602873135, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:44.133, 2007602873395, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 85228, 1, 2022/05/10, 23:23:44.133, 2007602873571, datacollector.dll, Program.Main: exiting datacollector process.

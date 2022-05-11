@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.9708029197080292" branch-rate="0.7857142857142857" lines-covered="399" lines-valid="411" branches-covered="44" branches-valid="56" complexity="111" version="0" timestamp="1652225024">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="CoterieApp.App" line-rate="0.9516129032258065" branch-rate="0.7884615384615384" complexity="51">
+      <classes>
+        <class name="AssesmentCoterie.App.Services.QuoteEngineService" filename="C:\Source\CoterieApp\CoterieApp.App\Services\QuoteEngine\QuoteEngineService.cs" line-rate="0.9466666666666667" branch-rate="0.7941176470588235" complexity="32">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="0.6666666666666666" complexity="6">
+              <lines>
+                <line number="16" hits="5" branch="false" />
+                <line number="17" hits="5" branch="false" />
+                <line number="18" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="19" hits="4" branch="true" condition-coverage="50% (1/2)" />
+                <line number="20" hits="4" branch="true" condition-coverage="50% (1/2)" />
+                <line number="21" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="AddQuote" signature="()" line-rate="1" branch-rate="0.8333333333333334" complexity="6">
+              <lines>
+                <line number="23" hits="4" branch="false" />
+                <line number="24" hits="4" branch="false" />
+                <line number="25" hits="4" branch="false" />
+                <line number="26" hits="4" branch="false" />
+                <line number="27" hits="4" branch="true" condition-coverage="100% (4/4)" />
+                <line number="28" hits="3" branch="false" />
+                <line number="29" hits="3" branch="false" />
+                <line number="30" hits="3" branch="true" condition-coverage="50% (1/2)" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="GetBusiness" signature="()" line-rate="0.8888888888888888" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="54" hits="8" branch="false" />
+                <line number="55" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="56" hits="2" branch="false" />
+                <line number="58" hits="6" branch="false" />
+                <line number="59" hits="12" branch="false" />
+                <line number="60" hits="6" branch="true" condition-coverage="50% (1/2)" />
+                <line number="61" hits="0" branch="false" />
+                <line number="63" hits="6" branch="false" />
+                <line number="64" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="GetPremiumsValue" signature="()" line-rate="0.9411764705882353" branch-rate="0.875" complexity="8">
+              <lines>
+                <line number="67" hits="4" branch="false" />
+                <line number="68" hits="4" branch="true" condition-coverage="50% (1/2)" />
+                <line number="69" hits="0" branch="false" />
+                <line number="71" hits="4" branch="false" />
+                <line number="72" hits="4" branch="false" />
+                <line number="73" hits="4" branch="true" condition-coverage="100% (4/4)" />
+                <line number="74" hits="3" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="78" hits="7" branch="true" condition-coverage="100% (2/2)" />
+                <line number="79" hits="2" branch="false" />
+                <line number="80" hits="2" branch="false" />
+                <line number="81" hits="2" branch="false" />
+                <line number="82" hits="2" branch="false" />
+                <line number="84" hits="2" branch="false" />
+                <line number="85" hits="2" branch="false" />
+                <line number="87" hits="1" branch="false" />
+                <line number="88" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="GetStatesData" signature="()" line-rate="0.9" branch-rate="0.8" complexity="8">
+              <lines>
+                <line number="91" hits="4" branch="false" />
+                <line number="92" hits="4" branch="true" condition-coverage="50% (1/2)" />
+                <line number="93" hits="0" branch="false" />
+                <line number="95" hits="4" branch="false" />
+                <line number="96" hits="4" branch="false" />
+                <line number="97" hits="4" branch="true" condition-coverage="50% (1/2)" />
+                <line number="98" hits="0" branch="false" />
+                <line number="100" hits="12" branch="true" condition-coverage="100% (2/2)" />
+                <line number="101" hits="5" branch="false" />
+                <line number="102" hits="12" branch="true" condition-coverage="100% (2/2)" />
+                <line number="103" hits="12" branch="false" />
+                <line number="104" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="105" hits="3" branch="false" />
+                <line number="107" hits="2" branch="false" />
+                <line number="108" hits="2" branch="false" />
+                <line number="109" hits="2" branch="false" />
+                <line number="111" hits="2" branch="false" />
+                <line number="112" hits="2" branch="false" />
+                <line number="113" hits="1" branch="false" />
+                <line number="114" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="5" branch="false" />
+            <line number="17" hits="5" branch="false" />
+            <line number="18" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="19" hits="4" branch="true" condition-coverage="50% (1/2)" />
+            <line number="20" hits="4" branch="true" condition-coverage="50% (1/2)" />
+            <line number="21" hits="4" branch="false" />
+            <line number="23" hits="4" branch="false" />
+            <line number="24" hits="4" branch="false" />
+            <line number="25" hits="4" branch="false" />
+            <line number="26" hits="4" branch="false" />
+            <line number="27" hits="4" branch="true" condition-coverage="100% (4/4)" />
+            <line number="28" hits="3" branch="false" />
+            <line number="29" hits="3" branch="false" />
+            <line number="30" hits="3" branch="true" condition-coverage="50% (1/2)" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="4" branch="false" />
+            <line number="54" hits="8" branch="false" />
+            <line number="55" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="56" hits="2" branch="false" />
+            <line number="58" hits="6" branch="false" />
+            <line number="59" hits="12" branch="false" />
+            <line number="60" hits="6" branch="true" condition-coverage="50% (1/2)" />
+            <line number="61" hits="0" branch="false" />
+            <line number="63" hits="6" branch="false" />
+            <line number="64" hits="8" branch="false" />
+            <line number="67" hits="4" branch="false" />
+            <line number="68" hits="4" branch="true" condition-coverage="50% (1/2)" />
+            <line number="69" hits="0" branch="false" />
+            <line number="71" hits="4" branch="false" />
+            <line number="72" hits="4" branch="false" />
+            <line number="73" hits="4" branch="true" condition-coverage="100% (4/4)" />
+            <line number="74" hits="3" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="78" hits="7" branch="true" condition-coverage="100% (2/2)" />
+            <line number="79" hits="2" branch="false" />
+            <line number="80" hits="2" branch="false" />
+            <line number="81" hits="2" branch="false" />
+            <line number="82" hits="2" branch="false" />
+            <line number="84" hits="2" branch="false" />
+            <line number="85" hits="2" branch="false" />
+            <line number="87" hits="1" branch="false" />
+            <line number="88" hits="4" branch="false" />
+            <line number="91" hits="4" branch="false" />
+            <line number="92" hits="4" branch="true" condition-coverage="50% (1/2)" />
+            <line number="93" hits="0" branch="false" />
+            <line number="95" hits="4" branch="false" />
+            <line number="96" hits="4" branch="false" />
+            <line number="97" hits="4" branch="true" condition-coverage="50% (1/2)" />
+            <line number="98" hits="0" branch="false" />
+            <line number="100" hits="12" branch="true" condition-coverage="100% (2/2)" />
+            <line number="101" hits="5" branch="false" />
+            <line number="102" hits="12" branch="true" condition-coverage="100% (2/2)" />
+            <line number="103" hits="12" branch="false" />
+            <line number="104" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="105" hits="3" branch="false" />
+            <line number="107" hits="2" branch="false" />
+            <line number="108" hits="2" branch="false" />
+            <line number="109" hits="2" branch="false" />
+            <line number="111" hits="2" branch="false" />
+            <line number="112" hits="2" branch="false" />
+            <line number="113" hits="1" branch="false" />
+            <line number="114" hits="4" branch="false" />
+          </lines>
+        </class>
+        <class name="CoterieApp.App.MapperProfiles" filename="C:\Source\CoterieApp\CoterieApp.App\MapperProfiles.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="6" branch="false" />
+                <line number="10" hits="6" branch="false" />
+                <line number="11" hits="6" branch="false" />
+                <line number="12" hits="12" branch="false" />
+                <line number="14" hits="6" branch="false" />
+                <line number="15" hits="12" branch="false" />
+                <line number="16" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="6" branch="false" />
+            <line number="10" hits="6" branch="false" />
+            <line number="11" hits="6" branch="false" />
+            <line number="12" hits="12" branch="false" />
+            <line number="14" hits="6" branch="false" />
+            <line number="15" hits="12" branch="false" />
+            <line number="16" hits="6" branch="false" />
+          </lines>
+        </class>
+        <class name="CoterieApp.App.Services.BusinessService" filename="C:\Source\CoterieApp\CoterieApp.App\Services\Bussiness\BusinessService.cs" line-rate="0.9523809523809523" branch-rate="0.75" complexity="9">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="15" hits="3" branch="false" />
+                <line number="16" hits="3" branch="false" />
+                <line number="17" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="18" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="19" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="Add" signature="()" line-rate="0.9166666666666666" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="22" hits="2" branch="false" />
+                <line number="23" hits="2" branch="false" />
+                <line number="24" hits="4" branch="false" />
+                <line number="25" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="26" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="32" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="33" hits="0" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="Get" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="2" branch="false" />
+                <line number="40" hits="2" branch="false" />
+                <line number="41" hits="2" branch="false" />
+                <line number="42" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="3" branch="false" />
+            <line number="16" hits="3" branch="false" />
+            <line number="17" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="18" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="19" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+            <line number="23" hits="2" branch="false" />
+            <line number="24" hits="4" branch="false" />
+            <line number="25" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="32" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="33" hits="0" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="2" branch="false" />
+            <line number="39" hits="2" branch="false" />
+            <line number="40" hits="2" branch="false" />
+            <line number="41" hits="2" branch="false" />
+            <line number="42" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="CoterieApp.App.Services.StateService" filename="C:\Source\CoterieApp\CoterieApp.App\Services\State\StateService.cs" line-rate="0.9523809523809523" branch-rate="0.8" complexity="9">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="15" hits="3" branch="false" />
+                <line number="16" hits="3" branch="false" />
+                <line number="17" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="18" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="19" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="AddState" signature="()" line-rate="0.9166666666666666" branch-rate="0.8333333333333334" complexity="4">
+              <lines>
+                <line number="22" hits="2" branch="false" />
+                <line number="23" hits="2" branch="false" />
+                <line number="24" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="25" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="26" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="32" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="33" hits="1" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="Get" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="2" branch="false" />
+                <line number="40" hits="2" branch="false" />
+                <line number="41" hits="2" branch="false" />
+                <line number="42" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="3" branch="false" />
+            <line number="16" hits="3" branch="false" />
+            <line number="17" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="18" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="19" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+            <line number="23" hits="2" branch="false" />
+            <line number="24" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="25" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="32" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="33" hits="1" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="2" branch="false" />
+            <line number="39" hits="2" branch="false" />
+            <line number="40" hits="2" branch="false" />
+            <line number="41" hits="2" branch="false" />
+            <line number="42" hits="2" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="CoterieApp.Data" line-rate="1" branch-rate="1" complexity="5">
+      <classes>
+        <class name="CoterieApp.Data.Context.CoterieAppContext" filename="C:\Source\CoterieApp\CoterieApp.Data\Context\CoterieAppContext.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_Quotes" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="get_States" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Businesses" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="OnModelCreating" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="2" branch="false" />
+                <line number="18" hits="2" branch="false" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+                <line number="22" hits="2" branch="false" />
+                <line number="23" hits="4" branch="false" />
+                <line number="24" hits="2" branch="false" />
+                <line number="25" hits="2" branch="false" />
+                <line number="26" hits="2" branch="false" />
+                <line number="27" hits="2" branch="false" />
+                <line number="28" hits="4" branch="false" />
+                <line number="29" hits="2" branch="false" />
+                <line number="30" hits="2" branch="false" />
+                <line number="31" hits="2" branch="false" />
+                <line number="32" hits="2" branch="false" />
+                <line number="33" hits="4" branch="false" />
+                <line number="35" hits="2" branch="false" />
+                <line number="36" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="24" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="24" branch="false" />
+            <line number="10" hits="9" branch="false" />
+            <line number="12" hits="19" branch="false" />
+            <line number="14" hits="19" branch="false" />
+            <line number="17" hits="2" branch="false" />
+            <line number="18" hits="2" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+            <line number="23" hits="4" branch="false" />
+            <line number="24" hits="2" branch="false" />
+            <line number="25" hits="2" branch="false" />
+            <line number="26" hits="2" branch="false" />
+            <line number="27" hits="2" branch="false" />
+            <line number="28" hits="4" branch="false" />
+            <line number="29" hits="2" branch="false" />
+            <line number="30" hits="2" branch="false" />
+            <line number="31" hits="2" branch="false" />
+            <line number="32" hits="2" branch="false" />
+            <line number="33" hits="4" branch="false" />
+            <line number="35" hits="2" branch="false" />
+            <line number="36" hits="2" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="CoterieApp.Domain" line-rate="1" branch-rate="1" complexity="34">
+      <classes>
+        <class name="AssesmentCoterie.Domain.Entities.Business" filename="C:\Source\CoterieApp\Coterie.Domain\Entities\Business.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="13" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="23" branch="false" />
+              </lines>
+            </method>
+            <method name="get_BusinessFactor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="16" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="13" branch="false" />
+            <line number="7" hits="23" branch="false" />
+            <line number="9" hits="16" branch="false" />
+          </lines>
+        </class>
+        <class name="AssesmentCoterie.Domain.Entities.Quote" filename="C:\Source\CoterieApp\Coterie.Domain\Entities\Quote.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_TransactionId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Business" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Revenue" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IsSuccesful" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="false" />
+            <line number="7" hits="1" branch="false" />
+            <line number="9" hits="1" branch="false" />
+            <line number="11" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="AssesmentCoterie.Domain.Entities.State" filename="C:\Source\CoterieApp\Coterie.Domain\Entities\State.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="26" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Abbreviation" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="26" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FactorState" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="19" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="16" branch="false" />
+            <line number="7" hits="26" branch="false" />
+            <line number="9" hits="26" branch="false" />
+            <line number="11" hits="19" branch="false" />
+          </lines>
+        </class>
+        <class name="AssesmentCoterie.Domain.Models.Premiums" filename="C:\Source\CoterieApp\Coterie.Domain\Models\Premiums.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Premium" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_state" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="2" branch="false" />
+            <line number="7" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="AssesmentCoterie.Domain.Models.QuoteDto" filename="C:\Source\CoterieApp\Coterie.Domain\Models\QuoteDto.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_TransactionId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Business" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Revenue" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IsSuccesful" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Premiums" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="false" />
+            <line number="7" hits="2" branch="false" />
+            <line number="9" hits="2" branch="false" />
+            <line number="11" hits="5" branch="false" />
+            <line number="13" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="AssesmentCoterie.Domain.Models.Request" filename="C:\Source\CoterieApp\Coterie.Domain\Models\Request.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Business" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Revenue" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="11" branch="false" />
+              </lines>
+            </method>
+            <method name="get_States" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="8" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="12" branch="false" />
+            <line number="7" hits="11" branch="false" />
+            <line number="9" hits="8" branch="false" />
+          </lines>
+        </class>
+        <class name="CoterieApp.Domain.Models.BusinessDto" filename="C:\Source\CoterieApp\Coterie.Domain\Models\BusinessDto.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="get_BusinessFactor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="5" branch="false" />
+            <line number="7" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="CoterieApp.Domain.Models.StateData" filename="C:\Source\CoterieApp\Coterie.Domain\Models\StateData.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Abbreviation" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Factor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="4" branch="false" />
+            <line number="7" hits="4" branch="false" />
+          </lines>
+        </class>
+        <class name="CoterieApp.Domain.Models.StateDto" filename="C:\Source\CoterieApp\Coterie.Domain\Models\StateDto.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Abbreviation" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FactorState" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="5" branch="false" />
+            <line number="7" hits="4" branch="false" />
+            <line number="9" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="DemoLayers.Domain.Infrastructure.Utilities.GenericResponse`1" filename="C:\Source\CoterieApp\Coterie.Domain\Utilities\GenericResponse.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Data" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="14" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IsSucces" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="40" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="13" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="2" branch="false" />
+                <line number="6" hits="2" branch="false" />
+                <line number="7" hits="2" branch="false" />
+                <line number="8" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="9" branch="false" />
+                <line number="11" hits="9" branch="false" />
+                <line number="12" hits="9" branch="false" />
+                <line number="13" hits="9" branch="false" />
+                <line number="14" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="13" branch="false" />
+                <line number="17" hits="13" branch="false" />
+                <line number="18" hits="13" branch="false" />
+                <line number="19" hits="13" branch="false" />
+                <line number="20" hits="13" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="2" branch="false" />
+            <line number="6" hits="2" branch="false" />
+            <line number="7" hits="2" branch="false" />
+            <line number="8" hits="2" branch="false" />
+            <line number="10" hits="9" branch="false" />
+            <line number="11" hits="9" branch="false" />
+            <line number="12" hits="9" branch="false" />
+            <line number="13" hits="9" branch="false" />
+            <line number="14" hits="9" branch="false" />
+            <line number="16" hits="13" branch="false" />
+            <line number="17" hits="13" branch="false" />
+            <line number="18" hits="13" branch="false" />
+            <line number="19" hits="13" branch="false" />
+            <line number="20" hits="13" branch="false" />
+            <line number="22" hits="14" branch="false" />
+            <line number="24" hits="40" branch="false" />
+            <line number="26" hits="13" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="CoterieApp.Test" line-rate="0.9726027397260274" branch-rate="0.75" complexity="21">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\migo8\.nuget\packages\microsoft.net.test.sdk\16.11.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="CoterieApp.Test.App.Services.BusinessServiceTest" filename="C:\Source\CoterieApp\CoterieApp.Test\App\Services\BusinessServiceTest.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="When_Context_IsNull_ThrowException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetMapper" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="3" branch="false" />
+                <line number="73" hits="3" branch="false" />
+                <line number="74" hits="3" branch="false" />
+                <line number="75" hits="3" branch="false" />
+                <line number="76" hits="6" branch="false" />
+                <line number="78" hits="3" branch="false" />
+                <line number="79" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="GetDatabaseContext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="2" branch="false" />
+                <line number="46" hits="2" branch="false" />
+                <line number="47" hits="2" branch="false" />
+                <line number="48" hits="2" branch="false" />
+                <line number="49" hits="2" branch="false" />
+                <line number="50" hits="2" branch="false" />
+                <line number="52" hits="2" branch="false" />
+                <line number="53" hits="2" branch="false" />
+                <line number="54" hits="2" branch="false" />
+                <line number="55" hits="2" branch="false" />
+                <line number="56" hits="2" branch="false" />
+                <line number="57" hits="2" branch="false" />
+                <line number="58" hits="2" branch="false" />
+                <line number="59" hits="2" branch="false" />
+                <line number="61" hits="2" branch="false" />
+                <line number="62" hits="2" branch="false" />
+                <line number="63" hits="2" branch="false" />
+                <line number="64" hits="2" branch="false" />
+                <line number="65" hits="2" branch="false" />
+                <line number="66" hits="2" branch="false" />
+                <line number="67" hits="2" branch="false" />
+                <line number="68" hits="2" branch="false" />
+                <line number="69" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="When_Add_NewBusiness_All_Params_Right_IsNull_Return_IsSucces_True" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="When_Add_NewBussines_Already_Exists_IsNull_Return_Error_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="45" hits="2" branch="false" />
+            <line number="46" hits="2" branch="false" />
+            <line number="47" hits="2" branch="false" />
+            <line number="48" hits="2" branch="false" />
+            <line number="49" hits="2" branch="false" />
+            <line number="50" hits="2" branch="false" />
+            <line number="52" hits="2" branch="false" />
+            <line number="53" hits="2" branch="false" />
+            <line number="54" hits="2" branch="false" />
+            <line number="55" hits="2" branch="false" />
+            <line number="56" hits="2" branch="false" />
+            <line number="57" hits="2" branch="false" />
+            <line number="58" hits="2" branch="false" />
+            <line number="59" hits="2" branch="false" />
+            <line number="61" hits="2" branch="false" />
+            <line number="62" hits="2" branch="false" />
+            <line number="63" hits="2" branch="false" />
+            <line number="64" hits="2" branch="false" />
+            <line number="65" hits="2" branch="false" />
+            <line number="66" hits="2" branch="false" />
+            <line number="67" hits="2" branch="false" />
+            <line number="68" hits="2" branch="false" />
+            <line number="69" hits="2" branch="false" />
+            <line number="72" hits="3" branch="false" />
+            <line number="73" hits="3" branch="false" />
+            <line number="74" hits="3" branch="false" />
+            <line number="75" hits="3" branch="false" />
+            <line number="76" hits="6" branch="false" />
+            <line number="78" hits="3" branch="false" />
+            <line number="79" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="CoterieApp.Test.App.Services.QuoteEngineServiceTests" filename="C:\Source\CoterieApp\CoterieApp.Test\App\Services\QuoteEngineServiceTests.cs" line-rate="0.9596774193548387" branch-rate="0.75" complexity="10">
+          <methods>
+            <method name="When_Context_IsNull_ThrowException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="2" branch="false" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetStateServiceMock" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="115" hits="5" branch="false" />
+                <line number="116" hits="5" branch="false" />
+                <line number="118" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="119" hits="4" branch="false" />
+                <line number="120" hits="4" branch="false" />
+                <line number="121" hits="4" branch="false" />
+                <line number="122" hits="4" branch="false" />
+                <line number="123" hits="4" branch="false" />
+                <line number="124" hits="4" branch="false" />
+                <line number="125" hits="4" branch="false" />
+                <line number="126" hits="4" branch="false" />
+                <line number="127" hits="4" branch="false" />
+                <line number="128" hits="4" branch="false" />
+                <line number="129" hits="4" branch="false" />
+                <line number="130" hits="4" branch="false" />
+                <line number="131" hits="4" branch="false" />
+                <line number="132" hits="4" branch="false" />
+                <line number="133" hits="4" branch="false" />
+                <line number="134" hits="4" branch="false" />
+                <line number="135" hits="4" branch="false" />
+                <line number="136" hits="4" branch="false" />
+                <line number="137" hits="4" branch="false" />
+                <line number="138" hits="4" branch="false" />
+                <line number="139" hits="4" branch="false" />
+                <line number="141" hits="1" branch="false" />
+                <line number="142" hits="1" branch="false" />
+                <line number="143" hits="1" branch="false" />
+                <line number="144" hits="1" branch="false" />
+                <line number="145" hits="1" branch="false" />
+                <line number="147" hits="5" branch="false" />
+                <line number="148" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="GetBusinessServiceMock" signature="(...)" line-rate="0.782608695652174" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="151" hits="5" branch="false" />
+                <line number="152" hits="5" branch="false" />
+                <line number="154" hits="5" branch="true" condition-coverage="50% (1/2)" />
+                <line number="155" hits="5" branch="false" />
+                <line number="156" hits="5" branch="false" />
+                <line number="157" hits="5" branch="false" />
+                <line number="158" hits="5" branch="false" />
+                <line number="159" hits="5" branch="false" />
+                <line number="160" hits="5" branch="false" />
+                <line number="161" hits="5" branch="false" />
+                <line number="162" hits="5" branch="false" />
+                <line number="163" hits="5" branch="false" />
+                <line number="164" hits="5" branch="false" />
+                <line number="165" hits="5" branch="false" />
+                <line number="166" hits="5" branch="false" />
+                <line number="167" hits="5" branch="false" />
+                <line number="169" hits="0" branch="false" />
+                <line number="170" hits="0" branch="false" />
+                <line number="171" hits="0" branch="false" />
+                <line number="172" hits="0" branch="false" />
+                <line number="173" hits="0" branch="false" />
+                <line number="174" hits="5" branch="false" />
+                <line number="175" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="GetDatabaseContext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="88" hits="4" branch="false" />
+                <line number="89" hits="4" branch="false" />
+                <line number="90" hits="4" branch="false" />
+                <line number="91" hits="4" branch="false" />
+                <line number="92" hits="4" branch="false" />
+                <line number="93" hits="4" branch="false" />
+                <line number="95" hits="4" branch="false" />
+                <line number="96" hits="4" branch="false" />
+                <line number="97" hits="4" branch="false" />
+                <line number="98" hits="4" branch="false" />
+                <line number="99" hits="4" branch="false" />
+                <line number="100" hits="4" branch="false" />
+                <line number="101" hits="4" branch="false" />
+                <line number="102" hits="4" branch="false" />
+                <line number="104" hits="4" branch="false" />
+                <line number="105" hits="4" branch="false" />
+                <line number="106" hits="4" branch="false" />
+                <line number="107" hits="4" branch="false" />
+                <line number="108" hits="4" branch="false" />
+                <line number="109" hits="4" branch="false" />
+                <line number="110" hits="4" branch="false" />
+                <line number="111" hits="4" branch="false" />
+                <line number="112" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="When_All_Params_Ok_Return_GenericResponse_IsSuccess_True" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="When_Request_Has_Business_String_Empty_Return_GenericResponse_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="74" hits="1" branch="false" />
+                <line number="75" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="When_Request_Has_No_Register_state_Return_GenericResponse_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="65" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="When_States_IsNull_Return_GenericResponse_IsSuccess_False" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="2" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="88" hits="4" branch="false" />
+            <line number="89" hits="4" branch="false" />
+            <line number="90" hits="4" branch="false" />
+            <line number="91" hits="4" branch="false" />
+            <line number="92" hits="4" branch="false" />
+            <line number="93" hits="4" branch="false" />
+            <line number="95" hits="4" branch="false" />
+            <line number="96" hits="4" branch="false" />
+            <line number="97" hits="4" branch="false" />
+            <line number="98" hits="4" branch="false" />
+            <line number="99" hits="4" branch="false" />
+            <line number="100" hits="4" branch="false" />
+            <line number="101" hits="4" branch="false" />
+            <line number="102" hits="4" branch="false" />
+            <line number="104" hits="4" branch="false" />
+            <line number="105" hits="4" branch="false" />
+            <line number="106" hits="4" branch="false" />
+            <line number="107" hits="4" branch="false" />
+            <line number="108" hits="4" branch="false" />
+            <line number="109" hits="4" branch="false" />
+            <line number="110" hits="4" branch="false" />
+            <line number="111" hits="4" branch="false" />
+            <line number="112" hits="4" branch="false" />
+            <line number="115" hits="5" branch="false" />
+            <line number="116" hits="5" branch="false" />
+            <line number="118" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="119" hits="4" branch="false" />
+            <line number="120" hits="4" branch="false" />
+            <line number="121" hits="4" branch="false" />
+            <line number="122" hits="4" branch="false" />
+            <line number="123" hits="4" branch="false" />
+            <line number="124" hits="4" branch="false" />
+            <line number="125" hits="4" branch="false" />
+            <line number="126" hits="4" branch="false" />
+            <line number="127" hits="4" branch="false" />
+            <line number="128" hits="4" branch="false" />
+            <line number="129" hits="4" branch="false" />
+            <line number="130" hits="4" branch="false" />
+            <line number="131" hits="4" branch="false" />
+            <line number="132" hits="4" branch="false" />
+            <line number="133" hits="4" branch="false" />
+            <line number="134" hits="4" branch="false" />
+            <line number="135" hits="4" branch="false" />
+            <line number="136" hits="4" branch="false" />
+            <line number="137" hits="4" branch="false" />
+            <line number="138" hits="4" branch="false" />
+            <line number="139" hits="4" branch="false" />
+            <line number="141" hits="1" branch="false" />
+            <line number="142" hits="1" branch="false" />
+            <line number="143" hits="1" branch="false" />
+            <line number="144" hits="1" branch="false" />
+            <line number="145" hits="1" branch="false" />
+            <line number="147" hits="5" branch="false" />
+            <line number="148" hits="5" branch="false" />
+            <line number="151" hits="5" branch="false" />
+            <line number="152" hits="5" branch="false" />
+            <line number="154" hits="5" branch="true" condition-coverage="50% (1/2)" />
+            <line number="155" hits="5" branch="false" />
+            <line number="156" hits="5" branch="false" />
+            <line number="157" hits="5" branch="false" />
+            <line number="158" hits="5" branch="false" />
+            <line number="159" hits="5" branch="false" />
+            <line number="160" hits="5" branch="false" />
+            <line number="161" hits="5" branch="false" />
+            <line number="162" hits="5" branch="false" />
+            <line number="163" hits="5" branch="false" />
+            <line number="164" hits="5" branch="false" />
+            <line number="165" hits="5" branch="false" />
+            <line number="166" hits="5" branch="false" />
+            <line number="167" hits="5" branch="false" />
+            <line number="169" hits="0" branch="false" />
+            <line number="170" hits="0" branch="false" />
+            <line number="171" hits="0" branch="false" />
+            <line number="172" hits="0" branch="false" />
+            <line number="173" hits="0" branch="false" />
+            <line number="174" hits="5" branch="false" />
+            <line number="175" hits="5" branch="false" />
+          </lines>
+        </class>
+        <class name="CoterieApp.Test.App.Services.StateServiceTests" filename="C:\Source\CoterieApp\CoterieApp.Test\App\Services\StateServiceTests.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="When_Context_IsNull_ThrowException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="2" branch="false" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetMapper" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="76" hits="3" branch="false" />
+                <line number="77" hits="3" branch="false" />
+                <line number="78" hits="3" branch="false" />
+                <line number="79" hits="3" branch="false" />
+                <line number="80" hits="6" branch="false" />
+                <line number="82" hits="3" branch="false" />
+                <line number="83" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="GetDatabaseContext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="2" branch="false" />
+                <line number="50" hits="2" branch="false" />
+                <line number="51" hits="2" branch="false" />
+                <line number="52" hits="2" branch="false" />
+                <line number="53" hits="2" branch="false" />
+                <line number="54" hits="2" branch="false" />
+                <line number="56" hits="2" branch="false" />
+                <line number="57" hits="2" branch="false" />
+                <line number="58" hits="2" branch="false" />
+                <line number="59" hits="2" branch="false" />
+                <line number="60" hits="2" branch="false" />
+                <line number="61" hits="2" branch="false" />
+                <line number="62" hits="2" branch="false" />
+                <line number="63" hits="2" branch="false" />
+                <line number="65" hits="2" branch="false" />
+                <line number="66" hits="2" branch="false" />
+                <line number="67" hits="2" branch="false" />
+                <line number="68" hits="2" branch="false" />
+                <line number="69" hits="2" branch="false" />
+                <line number="70" hits="2" branch="false" />
+                <line number="71" hits="2" branch="false" />
+                <line number="72" hits="2" branch="false" />
+                <line number="73" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="When_Add_NewState_All_Params_Right_IsNull_Return_IsSucces_True" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="When_Add_NewState_Already_Exists_IsNull_Return_Error_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="2" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="49" hits="2" branch="false" />
+            <line number="50" hits="2" branch="false" />
+            <line number="51" hits="2" branch="false" />
+            <line number="52" hits="2" branch="false" />
+            <line number="53" hits="2" branch="false" />
+            <line number="54" hits="2" branch="false" />
+            <line number="56" hits="2" branch="false" />
+            <line number="57" hits="2" branch="false" />
+            <line number="58" hits="2" branch="false" />
+            <line number="59" hits="2" branch="false" />
+            <line number="60" hits="2" branch="false" />
+            <line number="61" hits="2" branch="false" />
+            <line number="62" hits="2" branch="false" />
+            <line number="63" hits="2" branch="false" />
+            <line number="65" hits="2" branch="false" />
+            <line number="66" hits="2" branch="false" />
+            <line number="67" hits="2" branch="false" />
+            <line number="68" hits="2" branch="false" />
+            <line number="69" hits="2" branch="false" />
+            <line number="70" hits="2" branch="false" />
+            <line number="71" hits="2" branch="false" />
+            <line number="72" hits="2" branch="false" />
+            <line number="73" hits="2" branch="false" />
+            <line number="76" hits="3" branch="false" />
+            <line number="77" hits="3" branch="false" />
+            <line number="78" hits="3" branch="false" />
+            <line number="79" hits="3" branch="false" />
+            <line number="80" hits="6" branch="false" />
+            <line number="82" hits="3" branch="false" />
+            <line number="83" hits="3" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

@@ -1,0 +1,14 @@
+C:\Source\CoterieApp\Coterie.Domain\bin\Debug\net6.0\CoterieApp.Domain.deps.json
+C:\Source\CoterieApp\Coterie.Domain\bin\Debug\net6.0\CoterieApp.Domain.runtimeconfig.json
+C:\Source\CoterieApp\Coterie.Domain\bin\Debug\net6.0\CoterieApp.Domain.dll
+C:\Source\CoterieApp\Coterie.Domain\bin\Debug\net6.0\ref\CoterieApp.Domain.dll
+C:\Source\CoterieApp\Coterie.Domain\bin\Debug\net6.0\CoterieApp.Domain.pdb
+C:\Source\CoterieApp\Coterie.Domain\obj\Debug\net6.0\CoterieApp.Domain.GlobalUsings.g.cs
+C:\Source\CoterieApp\Coterie.Domain\obj\Debug\net6.0\CoterieApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\CoterieApp\Coterie.Domain\obj\Debug\net6.0\CoterieApp.Domain.AssemblyInfoInputs.cache
+C:\Source\CoterieApp\Coterie.Domain\obj\Debug\net6.0\CoterieApp.Domain.AssemblyInfo.cs
+C:\Source\CoterieApp\Coterie.Domain\obj\Debug\net6.0\CoterieApp.Domain.csproj.CoreCompileInputs.cache
+C:\Source\CoterieApp\Coterie.Domain\obj\Debug\net6.0\CoterieApp.Domain.dll
+C:\Source\CoterieApp\Coterie.Domain\obj\Debug\net6.0\ref\CoterieApp.Domain.dll
+C:\Source\CoterieApp\Coterie.Domain\obj\Debug\net6.0\CoterieApp.Domain.pdb
+C:\Source\CoterieApp\Coterie.Domain\obj\Debug\net6.0\CoterieApp.Domain.genruntimeconfig.cache

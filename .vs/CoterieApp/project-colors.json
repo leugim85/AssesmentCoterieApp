@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bbb23908-0920-430c-902d-7bc21956d796": {
+      "ProjectGuid": "bbb23908-0920-430c-902d-7bc21956d796",
+      "DisplayName": "CoterieApp.Api",
+      "ColorIndex": 0
+    },
+    "b3dfc20d-aa6e-46e0-9c69-040484476a37": {
+      "ProjectGuid": "b3dfc20d-aa6e-46e0-9c69-040484476a37",
+      "DisplayName": "CoterieApp.Domain",
+      "ColorIndex": 1
+    },
+    "db1d3eba-229d-4313-a38b-0504db0a4c83": {
+      "ProjectGuid": "db1d3eba-229d-4313-a38b-0504db0a4c83",
+      "DisplayName": "CoterieApp.App",
+      "ColorIndex": 2
+    },
+    "22b85a0e-c2ef-420a-b812-2b0be2408785": {
+      "ProjectGuid": "22b85a0e-c2ef-420a-b812-2b0be2408785",
+      "DisplayName": "CoterieApp.Data",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "a83fd0df-68aa-4f99-bdf4-283f63fcb54a": {
+      "ProjectGuid": "a83fd0df-68aa-4f99-bdf4-283f63fcb54a",
+      "DisplayName": "CoterieApp.Test",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
