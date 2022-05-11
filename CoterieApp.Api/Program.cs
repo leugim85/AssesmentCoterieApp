@@ -11,6 +11,7 @@ var configuration = builder.Configuration;
 // Add services to the container.
 builder.Services.AddTransient<IStateService, StateService>();
 builder.Services.AddTransient<IBusinessService, BusinessService>();
+builder.Services.AddTransient<IQuoteEngineService, QuoteEngineService>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
